@@ -34,6 +34,9 @@ export default function Loading() {
       <div id='b1' className="objt"></div>
       <div id='b2' className="objt"></div>
 
+
+      <progress value={50} max={100}></progress>
+
     </div>
   )
 }

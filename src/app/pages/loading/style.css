@@ -356,3 +356,17 @@
   border-radius: 50%;
   animation: piscar infinite cubic-bezier(0.175, 0.885, 0.32, 1.275) .5s;
 }
+
+
+progress {
+  border-radius: 9999px;
+  overflow: hidden;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #000;
+}
+
+progress::-webkit-progress-value {
+  background-color: var(--indigo);
+}

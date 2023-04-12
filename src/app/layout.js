@@ -26,6 +26,7 @@ export default function RootLayout({ children }) {
             <Link className='p-3 bg-slate-800 text-white font-bold rounded-3xl hover:rounded-xl link-a  ' href={"/pages/search"}>Search</Link>
             <Link className='p-3 bg-slate-800 text-white font-bold rounded-3xl hover:rounded-xl link-a  ' href={"#"}>Toggle</Link>
             <Link className='p-3 bg-slate-800 text-white font-bold rounded-3xl hover:rounded-xl link-a  ' href={"/pages/alert"}>Alert</Link>
+            <Link className='p-3 bg-slate-800 text-white font-bold rounded-3xl hover:rounded-xl link-a  ' href={"/pages/drag"}>Arrastar</Link>
           </nav>
         </header>
 
